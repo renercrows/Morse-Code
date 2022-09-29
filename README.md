@@ -41,6 +41,7 @@ Kindly modify the files as needed.
 - LinkedIn: (https://www.linkedin.com/in/nii-aneal-84ba7a147/?locale=fr_FR)
 
 🤝 Contributing
+
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the issues page.
