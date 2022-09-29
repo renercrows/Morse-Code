@@ -23,7 +23,7 @@ Clone the repository using the GitHub link provided below.
 ## Install
 In the terminal, go to your file directory and run this command.
 
-$ git clone git@github.com:VitorGuedesMadeira/Morse-Decoder.git
+$ git clone git@github.com:renercrows/Morse-Code.git
 Usage
 Kindly modify the files as needed.
 
