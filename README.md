@@ -1,5 +1,10 @@
 # Morse-Code
 
+## Built With
+ - Ruby
+ - Linters: Rubocop
+ - Visual Studio Code
+
 # Getting Started
 To get a local copy up and running follow these simple steps.
 
