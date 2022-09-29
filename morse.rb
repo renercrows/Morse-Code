@@ -15,7 +15,7 @@ def decode_word(word)
   word.split.each do |char|
     new_str += decode_char(char)
   end
-  my_string
+  new_str
 end
 
 def decode_sentence(sentence)
