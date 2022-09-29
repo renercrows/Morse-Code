@@ -51,8 +51,8 @@ end
 
 def decode_sentence(sentence)
   new_sentence = ''
-  sentence.split('   ').each { |char| new_sentece += "#{decode_word(word)}" }
-  new_sentece
+  sentence.split('   ').each { |char| new_sentence += "#{decode_word(word)}" }
+  new_sentence
 end
 
 p decode_char('.-')
