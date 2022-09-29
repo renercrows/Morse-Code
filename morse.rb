@@ -48,3 +48,14 @@ def decode_word(word)
   end
   my_string
 end
+
+def decode_sentence(sentence)
+  new_sentence = ''
+  sentence.split('   ').each { |char| new_sentece += "#{decode_word(word)}" }
+  new_sentece
+end
+
+p decode_char('.-')
+p decode_word('-- -.--')
+p decode_sentence('-- -.--   -. .- -- .')
+p decode_sentence(' .-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
