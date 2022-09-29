@@ -51,11 +51,11 @@ end
 
 def decode_sentence(sentence)
   new_sentence = ''
-  sentence.split('   ').each { |char| new_sentence += "#{decode_word(word)}" }
+  sentence.split('   ').each { |char| new_sentence += "#{decode_word(char)} " }
   new_sentence
 end
 
-p decode_char('.-')
-p decode_word('-- -.--')
-p decode_sentence('-- -.--   -. .- -- .')
-p decode_sentence(' .-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
+puts decode_char('.-')
+puts decode_word('-- -.--')
+puts decode_sentence('-- -.--   -. .- -- .')
+puts decode_sentence(' .-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
